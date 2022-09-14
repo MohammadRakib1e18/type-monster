@@ -107,14 +107,13 @@
             </p>
         </article>
         <article class="container">
-            <h5 class="fw-bold">1: How does Javascript Event-Loop work?</h5>
+            <h5 class="fw-bold">3: How does Javascript Event-Loop work?</h5>
             <p class="ms-5">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Corrupti perferendis veniam distinctio, voluptatum fugit
-                voluptatibus ducimus sapiente commodi. Doloribus corporis ab
-                dolore, recusandae nemo maiores modi nulla, distinctio amet
-                minima, animi ad! Quia voluptatum excepturi eius expedita maxime
-                id asperiores.
+                Javascript's event loop is responsible for executing the code and other stuffs of events. When we talk about event loop, there comes up two topics: Stack and Queue.
+                
+            </p>
+            <p class="ms-5">
+                We know javascript is a single threaded language. It's a asynchronous language. When a javascript code executes, the event are stored in Stack which is 'First-In Last-Out'. At the same time, some events like setInterval or fetch are kept in Queue which is 'First-In First-Out'. And after processing the synchronous tasks, queue's tasks are joined to executed. 
             </p>
         </article>
         <article class="container">
