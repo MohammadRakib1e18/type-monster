@@ -1,4 +1,5 @@
 const histories = document.getElementById("histories");
+histories.classList.add("histories")
 
 function addHistory(questionText, timeTaken, errorCount) {
   const newRow = document.createElement("div");
