@@ -17,13 +17,43 @@
         <!-- custom stylesheet  -->
         <link rel="stylesheet" href="blog.css" />
         <!-- favicon -->
-        <link
-            rel="shortcut icon"
-            href="typing.png"
-            type="image/x-icon"
-        />
+        <link rel="shortcut icon" href="typing.png" type="image/x-icon" />
     </head>
     <body>
+        <!-- navbar started  -->
+        <nav
+            class="
+                container-fluid
+                d-flex
+                justify-content-between
+                align-items-center
+                p-2
+                px-4
+            "
+        >
+            <a class="text-decoration-none text-light"
+                ><img src="typing.png" alt="" class="me-2" /><span
+                    id="title-text"
+                    >Type Monster</span
+                ></a
+            >
+
+            <div class="d-flex">
+                <a
+                    class="nav-link rounded-1 me-2 px-2 btn text-light"
+                    href="index.html"
+                    aria-current="page"
+                    >Race</a
+                >
+                <a
+                    class="nav-link rounded-1 me-2 px-2 btn text-light"
+                    aria-current="page"
+                    href="blog.html"
+                    >Blog</a
+                >
+            </div>
+        </nav>
+        <!-- navbar ends  -->
 
         <h2 class="mx-2 mt-4">Coder's Blogs House!</h2>
         <hr />
@@ -31,48 +61,87 @@
         <!-- blogs  -->
         <article class="container">
             <h5 class="fw-bold">
-                1: What is the differences between Local Storage and Session Storage?
+                1: What is the differences between Local Storage and Session
+                Storage?
             </h5>
             <p class="ms-5">
-                Local storage and session storage are found at application tab in Developer tools. Though they both work in the same process but there are some differences which make them different. Take a look: 
+                Local storage and session storage are found at application tab
+                in Developer tools. Though they both work in the same process
+                but there are some differences which make them different. Take a
+                look:
             </p>
             <p class="ms-5">
-                Data stored in Local storage has no expiration date. If once data is saved in local storage, then it remains until user remove the data. That means, browser doesn't take any step to remove the data.
+                Data stored in Local storage has no expiration date. If once
+                data is saved in local storage, then it remains until user
+                remove the data. That means, browser doesn't take any step to
+                remove the data.
             </p>
             <p class="ms-5">
-                On the other hand, Session storage's data erased after closing the browser or tab! So, it has limit and expiration date.
+                On the other hand, Session storage's data erased after closing
+                the browser or tab! So, it has limit and expiration date.
             </p>
-            
         </article>
         <article class="container">
             <h5 class="fw-bold">
                 2: What is the differences between Global Scope and Block Scope?
             </h5>
             <p class="ms-5">
-                Scope means the region of a program where a variable can be accessible. There are two types of scope in javascript.
+                Scope means the region of a program where a variable can be
+                accessible. There are two types of scope in javascript.
             </p>
             <p class="ms-5">
-                <span class="text-decoration-underline">Global Scope</span><br>
-                Global means the entire program region. If a variable or function declared in global scope, it can be accessible in anywhere of the program.
+                <span class="text-decoration-underline">Global Scope</span
+                ><br />
+                Global means the entire program region. If a variable or
+                function declared in global scope, it can be accessible in
+                anywhere of the program.
             </p>
             <p class="ms-5">
-                <span class="text-decoration-underline">Local Scope</span> <br>
-                Local Scope has limited access region. If we define any variable inside the curly brace, { }, then those variable are local to that region. Though we can access global variable inside the local scope, local scope's variable isn't accessible outside the local scope. 
+                <span class="text-decoration-underline">Local Scope</span>
+                <br />
+                Local Scope has limited access region. If we define any variable
+                inside the curly brace, { }, then those variable are local to
+                that region. Though we can access global variable inside the
+                local scope, local scope's variable isn't accessible outside the
+                local scope.
             </p>
-            
         </article>
         <article class="container">
             <h5 class="fw-bold">1: How does Javascript Event-Loop work?</h5>
-            <p class="ms-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti perferendis veniam distinctio, voluptatum fugit voluptatibus ducimus sapiente commodi. Doloribus corporis ab dolore, recusandae nemo maiores modi nulla, distinctio amet minima, animi ad! Quia voluptatum excepturi eius expedita maxime id asperiores.</p>
-            
+            <p class="ms-5">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corrupti perferendis veniam distinctio, voluptatum fugit
+                voluptatibus ducimus sapiente commodi. Doloribus corporis ab
+                dolore, recusandae nemo maiores modi nulla, distinctio amet
+                minima, animi ad! Quia voluptatum excepturi eius expedita maxime
+                id asperiores.
+            </p>
         </article>
         <article class="container">
-            <h5 class="fw-bold">1: How many ways are there to get 'undefined'?</h5>
-            <p class="ms-5">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Corrupti perferendis veniam distinctio, voluptatum fugit voluptatibus ducimus sapiente commodi. Doloribus corporis ab dolore, recusandae nemo maiores modi nulla, distinctio amet minima, animi ad! Quia voluptatum excepturi eius expedita maxime id asperiores.</p>
-            
+            <h5 class="fw-bold">
+                1: How many ways are there to get 'undefined'?
+            </h5>
+            <p class="ms-5">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Corrupti perferendis veniam distinctio, voluptatum fugit
+                voluptatibus ducimus sapiente commodi. Doloribus corporis ab
+                dolore, recusandae nemo maiores modi nulla, distinctio amet
+                minima, animi ad! Quia voluptatum excepturi eius expedita maxime
+                id asperiores.
+            </p>
         </article>
         <!-- footer  -->
-        <footer class="container-fluid text-center mt-5 pt-5 pb-3 bg-dark text-muted">
+        <footer
+            class="
+                container-fluid
+                text-center
+                mt-5
+                pt-5
+                pb-3
+                bg-dark
+                text-muted
+            "
+        >
             <p>Copyright@2022-Speed Monster</p>
             <hr class="w-50 mx-auto" />
         </footer>

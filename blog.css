@@ -1,11 +1,23 @@
 /* blogs css  */
+nav{
+    background-color: rgba(10, 7, 7, 0.863);
+    font-size: 1.2rem;
+}
 
-
+nav img{
+    width: 40px;
+    height: 40px;
+}
 
 article{
     margin-top: 25px;
     background-color: rgba(28, 11, 182, 0.027);
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     padding: 2%;
+    border: 1px solid transparent;
     border-left: 4px solid gray;    
+}
+article:hover{
+    border: 1px solid gray;
+    border-left: 4px solid rgb(4, 66, 46);  
 }
